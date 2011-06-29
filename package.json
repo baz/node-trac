@@ -1,0 +1,17 @@
+{
+	"name": "node-trac",
+	"description": "Trac 0.12, JSON-RPC 1.1.2",
+	"version": "0.0.1",
+	"author": "Basil Shkara <basil@neat.io>",
+	"keywords": ["trac"],
+	"main" : "lib/trac",
+	"dependencies": {
+		"restler": ">=0.2.1"
+	}, 
+	"directories" : {
+		"lib" : "./lib"
+	},
+	"engines": {
+		"node": ">= 0.4.2"
+	}
+}
